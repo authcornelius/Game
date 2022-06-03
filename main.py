@@ -26,7 +26,7 @@ while True:
         else:
             print("Rock beats scissors! You lose.")
     elif Player == "" or Player != possible_actions:
-        print("invalid input") 
+        print("invalid input for player") 
 
     play_again = input("Play again? (y/n): ")
     if play_again.lower() != "y":
