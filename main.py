@@ -1,14 +1,11 @@
 import random
 
 while True:
-    R = 'Rock'
-    P = 'Paper'
-    S = 'Scissors'
+
+    print("In this game below, R = Rock, P = Paper, S = Scissors")
     Player = input("Enter a choice (Rock, Paper, Scissors): \n")
-    possible_actions = [R, P, S]
+    possible_actions = ["R", "P", "S"]
     CPU = random.choice(possible_actions)
-    # if Player == R:
-    #     print
     print(f"\nPlayer({Player}), CPU({CPU}).\n")
 
     if Player == CPU:
